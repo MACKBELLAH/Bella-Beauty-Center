@@ -1,6 +1,6 @@
 * {
-    margin:0;
-    padding: 0;
+    margin:1PX;
+    padding: 2PX;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -14,29 +14,34 @@
     gap: 30px;
     background-color: antiquewhite;
 }
-.service-dec{
+.service-desc{
     width: 50%;
 }
-.service-dec h4{
+.service-desc h4{
     font-size: 36px;
 }
-.service-dec h2{
+.service-desc h2{
     font-size: 72px;
     padding-bottom:20px ;
 }
-.service-dec button{
-    padding: 10px 20px;
-    font-size: 18px;
+.service-desc button{
+    padding: 4px 6px;
+    font-size: 28px;
     background-color: tomato;
-    color: azure;
+    color: rgb(199, 99, 99);
     border: none;
     cursor: pointer;
     margin-top: 20px;
 }
-.service-dec button a{
+.service-desc button a{
     text-decoration: none;
-    color: white;
+    color: hsl(246, 92%, 25%);
 }
+.service-desc p{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
 .service-hero-imge img{
     width: 600px;
 }
@@ -57,8 +62,8 @@
     padding: 20px;
 
 }
-.prod- head span{
-    color: brown;
+.prod-head span{
+    color:tomato;
 }
 .prod-div{
     display: flex;
